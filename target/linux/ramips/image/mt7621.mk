@@ -540,7 +540,7 @@ TARGET_DEVICES += dlink_dir-882-r1
 
 define Device/d-team_newifi-d2
   $(Device/uimage-lzma-loader)
-  IMAGE_SIZE := 32448k
+  IMAGE_SIZE := 65536k
   DEVICE_VENDOR := Newifi
   DEVICE_MODEL := D2
   DEVICE_COMPAT_VERSION := 1.1
@@ -973,7 +973,7 @@ TARGET_DEVICES += jcg_y2
 define Device/lenovo_newifi-d1
   $(Device/dsa-migration)
   $(Device/uimage-lzma-loader)
-  IMAGE_SIZE := 32448k
+  IMAGE_SIZE := 65536k
   DEVICE_VENDOR := Newifi
   DEVICE_MODEL := D1
   DEVICE_PACKAGES := kmod-mt7603 kmod-mt76x2 kmod-usb3 kmod-sdhci-mt7620 \
