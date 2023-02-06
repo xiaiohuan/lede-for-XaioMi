@@ -37,6 +37,7 @@
    cd lede
    ./scripts/feeds update -a
    ./scripts/feeds install -a
+   ./scripts/feeds install -f  强制安装所有包
    make menuconfig
    ```
 
